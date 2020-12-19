@@ -12,5 +12,5 @@ def plot_sensor_signal(df, signal_name):
     plt.xlim(250, 0)  # reverse the x-axis so RUL counts down to zero
     plt.xticks(np.arange(0, 300, 25))
     plt.ylabel(signal_name)
-    plt.xlabel('Remaining Use fulLife')
+    plt.xlabel('Remaining Useful Lifetime')
     plt.show()
