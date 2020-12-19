@@ -1,0 +1,1 @@
+rf = RandomForestRegressor(n_estimators=500, max_features='sqrt', random_state=42, max_depth=10, min_samples_leaf=50)  # depth should be less than number of features
