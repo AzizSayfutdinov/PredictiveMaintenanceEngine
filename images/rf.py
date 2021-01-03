@@ -4,7 +4,7 @@ from keras.layers import Dense, Dropout, LSTM, Activation
 model = Sequential()
 
 model.add(LSTM(
-         input_shape=(timestamp, nb_features),
+         input_shape=(50, 15),  # (timestamp, nb_features)
          units=100,
          return_sequences=True))
 model.add(Dropout(0.2))
